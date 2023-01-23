@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "E0Tot6a5Gaxn/x8xKTirITRIPnH1bBeFIzUy217yErPHvArJB298FxSyk4dRhyvfkOaWOBZ4TY7iM1qvwLdX2w==",
-  "success": true,
+  "dgSpecHash": "WqimODhVo6cIdwDIA1fen6kL4qkMEjKthPVT5pczLsauuVkTvs8jQauHUXm3gKx/AeM1a7/AWUWG+zt9w/bhxw==",
+  "success": false,
   "projectFilePath": "c:\\Users\\E001150\\AzureDevOpsRestAPI\\AzureDevOpsRestAPI.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.TeamFoundationServer.Client' from remote source 'https://shankonduru.jfrog.io/artifactory/api/nuget/v3/shankonduru-nuget/FindPackagesById()?id='Microsoft.TeamFoundationServer.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.TeamFoundationServer.Client"
+    }
+  ]
 }

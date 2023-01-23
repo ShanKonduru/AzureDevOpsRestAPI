@@ -5,7 +5,9 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Microsoft.TeamFoundationServer.Client >= 16.170.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\E001150\\.nuget\\packages\\": {}
@@ -13,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E001150\\AzureDevOpsRestAPI\\AzureDevOpsRestAPI.csproj",
+      "projectUniqueName": "c:\\Users\\E001150\\AzureDevOpsRestAPI\\AzureDevOpsRestAPI.csproj",
       "projectName": "AzureDevOpsRestAPI",
-      "projectPath": "C:\\Users\\E001150\\AzureDevOpsRestAPI\\AzureDevOpsRestAPI.csproj",
+      "projectPath": "c:\\Users\\E001150\\AzureDevOpsRestAPI\\AzureDevOpsRestAPI.csproj",
       "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E001150\\AzureDevOpsRestAPI\\obj\\",
+      "outputPath": "c:\\Users\\E001150\\AzureDevOpsRestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +46,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.TeamFoundationServer.Client": {
+            "target": "Package",
+            "version": "[16.170.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -63,5 +71,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.TeamFoundationServer.Client' from remote source 'https://shankonduru.jfrog.io/artifactory/api/nuget/v3/shankonduru-nuget/FindPackagesById()?id='Microsoft.TeamFoundationServer.Client'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.TeamFoundationServer.Client"
+    }
+  ]
 }

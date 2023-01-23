@@ -38,6 +38,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[16.170.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
